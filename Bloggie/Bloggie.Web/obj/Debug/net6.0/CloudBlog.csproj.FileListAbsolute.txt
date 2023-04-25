@@ -265,3 +265,8 @@ D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\obj
 D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\obj\Debug\net6.0\CloudBlog.pdb
 D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\obj\Debug\net6.0\CloudBlog.genruntimeconfig.cache
 D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\obj\Debug\net6.0\ref\CloudBlog.dll
+D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
