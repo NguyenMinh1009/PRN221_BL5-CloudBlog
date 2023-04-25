@@ -1,4 +1,6 @@
-﻿namespace Bloggie.Web.Models.Domain
+﻿using CloudBlog.Models.Domain;
+
+namespace Bloggie.Web.Models.Domain
 {
     public class BlogPost
     {
@@ -15,5 +17,7 @@
 
         //Navigation Property
         public ICollection<Tag> Tags { get; set; }
+
+        public ICollection<BlogPostLike> Likes { get; set; }
     }
 }

@@ -28,18 +28,22 @@ namespace CloudBlog.Pages
                 Email = RegisterViewModel.Email,
             };
 
-           var identityResult = await userManager.CreateAsync(user, RegisterViewModel.Password);
+            var identityResult = await userManager.CreateAsync(user, RegisterViewModel.Password);
 
-            if(identityResult.Succeeded)
+            if (identityResult.Succeeded)
             {
-                ViewData["Notification"] = new Notification
+
+                var addRoleResult = await userManager.AddToRoleAsync(user, "User");
+                if (addRoleResult.Succeeded)
                 {
-                    Type = Bloggie.Web.Enums.NotificationType.Success,
-                    Message = "User registered successfully"
-                };
+                    ViewData["Notification"] = new Notification
+                    {
+                        Type = Bloggie.Web.Enums.NotificationType.Success,
+                        Message = "User registered successfully"
+                    };
 
-                return Page();
-
+                    return Page();
+                }
             }
 
             ViewData["Notification"] = new Notification
@@ -48,7 +52,7 @@ namespace CloudBlog.Pages
                 Message = "Someting went wrong"
             };
 
-                return Page();
+            return Page();
         }
     }
 }

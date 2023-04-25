@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\FULearning\Spring2023-BL5\PRN221\PRN221_BL5-CloudBlog\Bloggie\Bloggie.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/FULearning/Spring2023-BL5/PRN221/PRN221_BL5-CloudBlog/Bloggie/Bloggie.Web/Pages/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FULearning/Spring2023-BL5/PRN221/PRN221_BL5-CloudBlog/Bloggie/Bloggie.Web/Pages/Admin/Blogs/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ3NcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/FULearning/Spring2023-BL5/PRN221/PRN221_BL5-CloudBlog/Bloggie/Bloggie.Web/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FULearning/Spring2023-BL5/PRN221/PRN221_BL5-CloudBlog/Bloggie/Bloggie.Web/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FULearning/Spring2023-BL5/PRN221/PRN221_BL5-CloudBlog/Bloggie/Bloggie.Web/Pages/Privacy.cshtml]
